@@ -4,32 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLIM-WETU</title>
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+<!-- MENU -->
 <nav>
-    <a href="#accueil">Accueil</a>
-    <a href="#services">Services</a>
-    <a href="#realisations">Réalisations</a>
-    <a href="#contact">Contact</a>
-</nav>
-<header class="hero">
 
+    <div class="logo2">
+        <img src="images/logo2.png" alt="Logo CLIM-WETU">
+    </div>
+
+    <div class="menu">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+</nav>
+
+<!-- ACCUEIL -->
+<header class="hero" id="accueil">
+<div class="slider">
+
+    <img src="images/clim1.jpg" class="slide active" alt="Climatisation">
+
+    <img src="images/clim2.jpg" class="slide" alt="Maintenance">
+
+    <img src="images/clim3.jpg" class="slide" alt="Dépannage">
+
+</div>
     <h1>CLIM-WETU</h1>
 
     <p>
-        Votre spécialiste en climatisation, froid industriel,
-        installation, maintenance et dépannage.
+        Votre spécialiste en climatisation,
+        froid industriel,
+        installation,
+        maintenance et dépannage.
     </p>
 
     <a href="#contact" class="btn">
         Demander un devis
     </a>
 
-</header><section id="services">
+</header>
+
+<!-- SERVICES -->
+<section id="services">
 
     <h2>Nos Services</h2>
 
@@ -49,6 +73,12 @@
             <h3>🚨 Dépannage</h3>
             <p>Intervention rapide pour toutes les pannes.</p>
         </div>
+
+    </div>
+
+</section>
+
+<!-- REALISATIONS -->
 <section id="realisations">
 
     <h2>Nos réalisations</h2>
@@ -60,6 +90,12 @@
         <img src="images/clim2.jpg" alt="Installation 2">
 
         <img src="images/clim3.jpg" alt="Installation 3">
+
+    </div>
+
+</section>
+
+<!-- A PROPOS -->
 <section id="apropos">
 
     <h2>À propos de CLIM-WETU</h2>
@@ -67,20 +103,64 @@
     <div class="apropos">
 
         <div class="texte">
-            <p>
-                CLIM-WETU est une entreprise spécialisée dans l'installation,
-                la maintenance et le dépannage des systèmes de climatisation
-                résidentiels, commerciaux et industriels.
 
-                Notre mission est d'offrir à nos clients des solutions fiables,
-                modernes et adaptées à leurs besoins.
+            <p>
+                CLIM-WETU est une entreprise spécialisée dans
+                l'installation, la maintenance et le dépannage
+                des systèmes de climatisation résidentiels,
+                commerciaux et industriels.
             </p>
+
+            <p>
+                Nous proposons des services de maintenance préventive,
+                de dépannage rapide et de conseils techniques pour les
+                particuliers, les entreprises et les industries.
+            </p>
+
+            <p>
+                Notre priorité est d'offrir un travail de qualité,
+                des interventions rapides et la satisfaction
+                de nos clients.
+            </p>
+
         </div>
 
         <div class="photo">
-            <img src="images/clim2.jpg" alt="À propos de CLIM-WETU">
+            <img src="images/clim2.jpg" alt="À propos">
         </div>
-        <section id="temoignages">
+
+    </div>
+
+</section>
+
+<!-- AVANTAGES -->
+<section id="avantages">
+
+    <h2>Pourquoi choisir CLIM-WETU ?</h2>
+
+    <div class="avantages">
+
+        <div class="avantage">
+            <h3>✅ Expertise</h3>
+            <p>Des techniciens qualifiés pour tous vos travaux.</p>
+        </div>
+
+        <div class="avantage">
+            <h3>⚡ Intervention rapide</h3>
+            <p>Nous intervenons rapidement pour résoudre vos pannes.</p>
+        </div>
+
+        <div class="avantage">
+            <h3>🤝 Satisfaction garantie</h3>
+            <p>La satisfaction du client est notre priorité.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- TEMOIGNAGES -->
+<section id="temoignages">
 
     <h2>Ce que disent nos clients</h2>
 
@@ -104,49 +184,51 @@
     </div>
 
 </section>
+
+<!-- CONTACT -->
 <section id="contact">
 
     <h2>Contactez-nous</h2>
 
-    <form>
+    <p>Besoin d'une installation, d'un entretien ou d'un dépannage ? Contactez notre équipe.</p>
 
-        <input type="text" placeholder="Votre nom" required>
+    <form id="contactForm">
 
-        <input type="email" placeholder="Votre adresse e-mail" required>
+        <input type="text" id="nom" placeholder="Votre nom" required>
 
-        <input type="tel" placeholder="Votre numéro de téléphone" required>
+        <input type="email" id="email" placeholder="Votre adresse e-mail" required>
 
-        <textarea placeholder="Votre message" rows="6" required></textarea>
+        <input type="tel" id="telephone" placeholder="Votre numéro de téléphone" required>
 
-        <button type="submit">Envoyer</button>
+        <textarea id="message" placeholder="Décrivez votre besoin" rows="6" required></textarea>
+
+        <button type="submit">Envoyer sur WhatsApp</button>
 
     </form>
 
 </section>
-    </div>
 
-</section>
-    </div>
-
-</section>
-    </div>
-
-</section>
+<!-- FOOTER -->
 <footer>
 
     <h3>CLIM-WETU</h3>
 
     <p>Installation • Maintenance • Dépannage</p>
 
-    <p>Téléphone : +243 XXX XXX XXX</p>
+    <p>📞 +243 828 515 416</p>
 
-    <p>Email : contact@climwetu.com</p>
+    <p>📧 contact@climwetu.com</p>
 
     <p>&copy; 2026 CLIM-WETU - Tous droits réservés.</p>
 
 </footer>
-<a href="https://wa.me/243891833710" class="whatsapp" target="_blank">
-    💬
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/243828515416"
+class="whatsapp"
+target="_blank">
+💬
 </a>
+<script src="js/script.js"></script>
 </body>
 </html>
